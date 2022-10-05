@@ -2,20 +2,17 @@
 //  ContentView.swift
 //  DIG-components
 //
-//  Created by 小林慧 on 2022/10/05.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            NonPerceptibleColorExmapleView()
+                .tabItem {
+                    Label("Color", systemImage: "paintpalette")
+                }
         }
-        .padding()
     }
 }
 

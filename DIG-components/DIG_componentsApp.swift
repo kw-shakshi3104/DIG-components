@@ -2,8 +2,6 @@
 //  DIG_componentsApp.swift
 //  DIG-components
 //
-//  Created by 小林慧 on 2022/10/05.
-//
 
 import SwiftUI
 
