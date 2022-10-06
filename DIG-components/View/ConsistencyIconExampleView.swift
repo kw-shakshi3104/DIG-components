@@ -20,16 +20,16 @@ struct ConsistencyIconExampleView: View {
                 VStack(alignment: .leading, spacing: 10) {
                     Label("Camera", systemImage: "camera.fill")
                         .font(.title)
-                        .fontWeight(.black)
+                        .fontWeight(.medium)
                     Label("Like", systemImage: "heart.fill")
                         .font(.title)
-                        .fontWeight(.light)
+                        .fontWeight(.medium)
                     Label("Mail", systemImage: "envelope.fill")
                         .font(.title)
-                        .fontWeight(.heavy)
+                        .fontWeight(.medium)
                     Label("Alarm", systemImage: "alarm.fill")
                         .font(.title)
-                        .fontWeight(.regular)
+                        .fontWeight(.medium)
                 }
             }
             .frame(width: 300)
@@ -46,16 +46,16 @@ struct ConsistencyIconExampleView: View {
                 VStack(alignment: .leading, spacing: 10) {
                     Label("Camera", systemImage: "camera.fill")
                         .font(.title)
-                        .fontWeight(.medium)
+                        .fontWeight(.black)
                     Label("Like", systemImage: "heart.fill")
                         .font(.title)
-                        .fontWeight(.medium)
+                        .fontWeight(.light)
                     Label("Mail", systemImage: "envelope.fill")
                         .font(.title)
-                        .fontWeight(.medium)
+                        .fontWeight(.heavy)
                     Label("Alarm", systemImage: "alarm.fill")
                         .font(.title)
-                        .fontWeight(.medium)
+                        .fontWeight(.regular)
                 }
             }
             .frame(width: 300)
