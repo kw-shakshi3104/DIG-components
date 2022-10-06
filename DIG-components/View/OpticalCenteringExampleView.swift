@@ -15,12 +15,17 @@ struct OpticalCenteringExampleView: View {
                     .font(.title2)
                     .fontWeight(.medium)
                     .padding()
+                ZStack {
+                    Circle()
+                        .frame(width: 200, height: 200)
+                    Image(systemName: "arrow.down.to.line")
+                        .resizable()
+                        .scaledToFit()
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                        .frame(width: 100, height: 100)
+                }
                 
-                Image(systemName: "arrow.down.to.line")
-                    .resizable()
-                    .scaledToFit()
-                    .fontWeight(.bold)
-                    .frame(width: 100, height: 100)
             }
             .frame(width: 300)
             .padding(.horizontal, 20)
@@ -31,12 +36,20 @@ struct OpticalCenteringExampleView: View {
                     .fontWeight(.medium)
                     .padding()
                 
-                Image(systemName: "arrow.down.to.line")
-                    .resizable()
-                    .scaledToFit()
-                    .fontWeight(.bold)
-                    .padding(.bottom, 3)
-                    .frame(width: 100, height: 100)
+                ZStack {
+                    Circle()
+                        .frame(width: 200, height: 200)
+                    
+                    Image(systemName: "arrow.down.to.line")
+                        .resizable()
+                        .scaledToFit()
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                        .padding(.bottom, 3)
+                        .frame(width: 100, height: 100)
+                }
+                
+                
             }
             .frame(width: 300)
             .padding(.horizontal, 20)
