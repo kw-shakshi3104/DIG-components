@@ -48,6 +48,7 @@ struct NonPerceptibleColorExmapleView: View {
                     textForegroundColor: .white
                 )
             }
+            .frame(width: 300)
             .padding(.horizontal, 20)
             
             // Bad
@@ -68,6 +69,7 @@ struct NonPerceptibleColorExmapleView: View {
                     textForegroundColor: nonPerceptibleBlack
                 )
             }
+            .frame(width: 300)
             .padding(.horizontal, 20)
         }
     }
