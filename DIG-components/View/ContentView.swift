@@ -13,6 +13,8 @@ struct ContentView: View {
             ConsistencyIconExampleView()
             
             OpticalCenteringExampleView()
+            
+            HeteropticsExampleView()
         }
         .tabViewStyle(.page(indexDisplayMode: .always))
     }
