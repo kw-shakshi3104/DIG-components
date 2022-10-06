@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7423165328EEF08F00E1B5C4 /* ConsistencyIconExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423165228EEF08F00E1B5C4 /* ConsistencyIconExampleView.swift */; };
+		7423165528EEF51D00E1B5C4 /* OpticalCenteringExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423165428EEF51D00E1B5C4 /* OpticalCenteringExampleView.swift */; };
 		74AA6C7C28EDA96B009BADF9 /* DIG_componentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA6C7B28EDA96B009BADF9 /* DIG_componentsApp.swift */; };
 		74AA6C7E28EDA96B009BADF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA6C7D28EDA96B009BADF9 /* ContentView.swift */; };
 		74AA6C8028EDA96C009BADF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AA6C7F28EDA96C009BADF9 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		7423165228EEF08F00E1B5C4 /* ConsistencyIconExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsistencyIconExampleView.swift; sourceTree = "<group>"; };
+		7423165428EEF51D00E1B5C4 /* OpticalCenteringExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpticalCenteringExampleView.swift; sourceTree = "<group>"; };
 		74AA6C7828EDA96B009BADF9 /* DIG-components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DIG-components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AA6C7B28EDA96B009BADF9 /* DIG_componentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIG_componentsApp.swift; sourceTree = "<group>"; };
 		74AA6C7D28EDA96B009BADF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				74AA6C7D28EDA96B009BADF9 /* ContentView.swift */,
 				74AA6C8928EDAAD9009BADF9 /* NonPerceptibleColorExmapleView.swift */,
 				7423165228EEF08F00E1B5C4 /* ConsistencyIconExampleView.swift */,
+				7423165428EEF51D00E1B5C4 /* OpticalCenteringExampleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				74AA6C7E28EDA96B009BADF9 /* ContentView.swift in Sources */,
 				74AA6C7C28EDA96B009BADF9 /* DIG_componentsApp.swift in Sources */,
 				7423165328EEF08F00E1B5C4 /* ConsistencyIconExampleView.swift in Sources */,
+				7423165528EEF51D00E1B5C4 /* OpticalCenteringExampleView.swift in Sources */,
 				74AA6C8A28EDAAD9009BADF9 /* NonPerceptibleColorExmapleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
