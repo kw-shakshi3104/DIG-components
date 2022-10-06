@@ -9,10 +9,12 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NonPerceptibleColorExmapleView()
-                .tabItem {
-                    Label("Color", systemImage: "paintpalette")
-                }
+                
+            ConsistencyIconExampleView()
+            
+            OpticalCenteringExampleView()
         }
+        .tabViewStyle(.page(indexDisplayMode: .always))
     }
 }
 
