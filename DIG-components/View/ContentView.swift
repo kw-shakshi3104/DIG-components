@@ -15,6 +15,8 @@ struct ContentView: View {
             OpticalCenteringExampleView()
             
             HeteropticsExampleView()
+            
+            PositiveNagativeSymbolExampleView()
         }
         .tabViewStyle(.page(indexDisplayMode: .always))
     }

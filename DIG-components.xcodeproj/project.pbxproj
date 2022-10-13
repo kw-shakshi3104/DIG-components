@@ -15,6 +15,7 @@
 		74AA6C8028EDA96C009BADF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AA6C7F28EDA96C009BADF9 /* Assets.xcassets */; };
 		74AA6C8328EDA96C009BADF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AA6C8228EDA96C009BADF9 /* Preview Assets.xcassets */; };
 		74AA6C8A28EDAAD9009BADF9 /* NonPerceptibleColorExmapleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA6C8928EDAAD9009BADF9 /* NonPerceptibleColorExmapleView.swift */; };
+		74D1AB4928F7EE0A0022E2CF /* PositiveNagativeSymbolExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1AB4828F7EE0A0022E2CF /* PositiveNagativeSymbolExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		74AA6C7F28EDA96C009BADF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74AA6C8228EDA96C009BADF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74AA6C8928EDAAD9009BADF9 /* NonPerceptibleColorExmapleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonPerceptibleColorExmapleView.swift; sourceTree = "<group>"; };
+		74D1AB4828F7EE0A0022E2CF /* PositiveNagativeSymbolExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveNagativeSymbolExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				7423165228EEF08F00E1B5C4 /* ConsistencyIconExampleView.swift */,
 				7423165428EEF51D00E1B5C4 /* OpticalCenteringExampleView.swift */,
 				7423165628EEF7BF00E1B5C4 /* HeteropticsExampleView.swift */,
+				74D1AB4828F7EE0A0022E2CF /* PositiveNagativeSymbolExampleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				74AA6C7E28EDA96B009BADF9 /* ContentView.swift in Sources */,
 				74AA6C7C28EDA96B009BADF9 /* DIG_componentsApp.swift in Sources */,
 				7423165328EEF08F00E1B5C4 /* ConsistencyIconExampleView.swift in Sources */,
+				74D1AB4928F7EE0A0022E2CF /* PositiveNagativeSymbolExampleView.swift in Sources */,
 				7423165528EEF51D00E1B5C4 /* OpticalCenteringExampleView.swift in Sources */,
 				7423165728EEF7BF00E1B5C4 /* HeteropticsExampleView.swift in Sources */,
 				74AA6C8A28EDAAD9009BADF9 /* NonPerceptibleColorExmapleView.swift in Sources */,
