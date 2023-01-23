@@ -19,6 +19,8 @@ struct ContentView: View {
             PositiveNagativeSymbolExampleView()
             
             WidgetLayerColorExampleView()
+            
+            WidgetLabelColorExampleView()
         }
         .tabViewStyle(.page(indexDisplayMode: .always))
     }
