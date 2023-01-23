@@ -6,52 +6,6 @@
 import SwiftUI
 
 // MARK: -
-extension Color {
-  init(_ hex: UInt, alpha: Double = 1) {
-    self.init(
-      .sRGB,
-      red: Double((hex >> 16) & 0xFF) / 255,
-      green: Double((hex >> 8) & 0xFF) / 255,
-      blue: Double(hex & 0xFF) / 255,
-      opacity: alpha
-    )
-  }
-}
-
-// MARK: -
-enum Appearance: CaseIterable {
-    case light
-    case dark
-    
-    var foregroundColor: Color {
-        switch self {
-        case .light:
-            return .black
-        case .dark:
-            return .white
-        }
-    }
-    
-    var widgetColor: Color {
-        switch self {
-        case .light:
-            return .white
-        case .dark:
-            return Color(0x1c1c1e)
-        }
-    }
-    
-    var backgroundColor: Color {
-        switch self {
-        case .light:
-            return Color(0xf2f2f7)
-        case .dark:
-            return .black
-        }
-    }
-}
-
-// MARK: -
 struct WidgetLayerColorView: View {
     let backgroundColor: Color
     let widgetColor: Color
