@@ -31,6 +31,24 @@ enum Appearance: CaseIterable {
             return .white
         }
     }
+    
+    var widgetColor: Color {
+        switch self {
+        case .light:
+            return .white
+        case .dark:
+            return Color(0x1c1c1e)
+        }
+    }
+    
+    var backgroundColor: Color {
+        switch self {
+        case .light:
+            return Color(0xf2f2f7)
+        case .dark:
+            return .black
+        }
+    }
 }
 
 // MARK: -
@@ -78,6 +96,7 @@ struct WidgetLayerColorView: View {
     }
 }
 
+// MARK: - 
 struct WidgetLayerColorExampleView: View {
     var body: some View {
         HStack {
