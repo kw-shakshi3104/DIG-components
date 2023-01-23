@@ -65,7 +65,7 @@ struct WidgetLayerColorExampleView: View {
                     widgetOnWidgetColor: Color(0xdfdfe4),
                     appearance: .light)
             }
-            .padding(.horizontal, 40)
+            .padding(.horizontal, 30)
             
             VStack {
                 Text("Dark appearance")
@@ -79,7 +79,7 @@ struct WidgetLayerColorExampleView: View {
                     widgetOnWidgetColor: Color(0x39393d),
                     appearance: .dark)
             }
-            .padding(.horizontal, 40)
+            .padding(.horizontal, 30)
         }
     }
 }

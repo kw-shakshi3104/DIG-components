@@ -65,7 +65,7 @@ struct WidgetLabelColorExampleView: View {
                     appearance: .light
                 )
             }
-            .padding(.horizontal, 40)
+            .padding(.horizontal, 30)
             
             VStack {
                 Text("Dark appearance")
@@ -81,7 +81,7 @@ struct WidgetLabelColorExampleView: View {
                     appearance: .dark
                 )
             }
-            .padding(.horizontal, 40)
+            .padding(.horizontal, 30)
         }
     }
 }
