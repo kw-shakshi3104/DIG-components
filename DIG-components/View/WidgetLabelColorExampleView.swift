@@ -49,7 +49,7 @@ struct WidgetLabelColorView: View {
     }
 }
 
-struct WidgetLabelColorExample: View {
+struct WidgetLabelColorExampleView: View {
     var body: some View {
         HStack {
             VStack {
@@ -86,8 +86,8 @@ struct WidgetLabelColorExample: View {
     }
 }
 
-struct WidgetLabelColorExample_Previews: PreviewProvider {
+struct WidgetLabelColorExampleView_Previews: PreviewProvider {
     static var previews: some View {
-        WidgetLabelColorExample()
+        WidgetLabelColorExampleView()
     }
 }
