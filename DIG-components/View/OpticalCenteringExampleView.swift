@@ -2,8 +2,6 @@
 //  OpticalCentering.swift
 //  DIG-components
 //
-//  Created by 小林慧 on 2022/10/06.
-//
 
 import SwiftUI
 

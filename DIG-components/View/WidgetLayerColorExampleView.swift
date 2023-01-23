@@ -2,8 +2,6 @@
 //  WidgetLayerColorExampleView.swift
 //  DIG-components
 //
-//  Created by 小林慧 on 2023/01/12.
-//
 
 import SwiftUI
 

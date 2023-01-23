@@ -2,8 +2,6 @@
 //  PositiveNagativeSymbolExampleView.swift
 //  DIG-components
 //
-//  Created by 小林慧 on 2022/10/13.
-//
 
 import SwiftUI
 
