@@ -21,6 +21,8 @@ struct ContentView: View {
             WidgetLayerColorExampleView()
             
             WidgetLabelColorExampleView()
+            
+            WidgetLayerAccentColorExample()
         }
         .tabViewStyle(.page(indexDisplayMode: .always))
     }

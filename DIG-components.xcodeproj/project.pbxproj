@@ -12,6 +12,7 @@
 		7423165728EEF7BF00E1B5C4 /* HeteropticsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423165628EEF7BF00E1B5C4 /* HeteropticsExampleView.swift */; };
 		743EC9E9297E9CD3008F95CC /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743EC9E8297E9CD3008F95CC /* Color+extension.swift */; };
 		743EC9EC297E9D39008F95CC /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743EC9EB297E9D39008F95CC /* Appearance.swift */; };
+		743EC9EE297E9EF9008F95CC /* WidgetLayerAccentColorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743EC9ED297E9EF9008F95CC /* WidgetLayerAccentColorExample.swift */; };
 		74AA6C7C28EDA96B009BADF9 /* DIG_componentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA6C7B28EDA96B009BADF9 /* DIG_componentsApp.swift */; };
 		74AA6C7E28EDA96B009BADF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA6C7D28EDA96B009BADF9 /* ContentView.swift */; };
 		74AA6C8028EDA96C009BADF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AA6C7F28EDA96C009BADF9 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		7423165628EEF7BF00E1B5C4 /* HeteropticsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeteropticsExampleView.swift; sourceTree = "<group>"; };
 		743EC9E8297E9CD3008F95CC /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
 		743EC9EB297E9D39008F95CC /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		743EC9ED297E9EF9008F95CC /* WidgetLayerAccentColorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetLayerAccentColorExample.swift; sourceTree = "<group>"; };
 		74AA6C7828EDA96B009BADF9 /* DIG-components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DIG-components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AA6C7B28EDA96B009BADF9 /* DIG_componentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIG_componentsApp.swift; sourceTree = "<group>"; };
 		74AA6C7D28EDA96B009BADF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				743EC9EB297E9D39008F95CC /* Appearance.swift */,
 				74B95AA92970034D00230FEC /* WidgetLayerColorExampleView.swift */,
 				74C6B8AF297E7A010016DDC7 /* WidgetLabelColorExampleView.swift */,
+				743EC9ED297E9EF9008F95CC /* WidgetLayerAccentColorExample.swift */,
 			);
 			path = "Widget+Color";
 			sourceTree = "<group>";
@@ -99,13 +102,13 @@
 		74AA6C8B28EDAAE2009BADF9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				743EC9EA297E9D13008F95CC /* Widget+Color */,
 				74AA6C7D28EDA96B009BADF9 /* ContentView.swift */,
 				74AA6C8928EDAAD9009BADF9 /* NonPerceptibleColorExmapleView.swift */,
 				7423165228EEF08F00E1B5C4 /* ConsistencyIconExampleView.swift */,
 				7423165428EEF51D00E1B5C4 /* OpticalCenteringExampleView.swift */,
 				7423165628EEF7BF00E1B5C4 /* HeteropticsExampleView.swift */,
 				74D1AB4828F7EE0A0022E2CF /* PositiveNagativeSymbolExampleView.swift */,
+				743EC9EA297E9D13008F95CC /* Widget+Color */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743EC9EE297E9EF9008F95CC /* WidgetLayerAccentColorExample.swift in Sources */,
 				74AA6C7E28EDA96B009BADF9 /* ContentView.swift in Sources */,
 				74C6B8B0297E7A010016DDC7 /* WidgetLabelColorExampleView.swift in Sources */,
 				74B95AAA2970034D00230FEC /* WidgetLayerColorExampleView.swift in Sources */,
