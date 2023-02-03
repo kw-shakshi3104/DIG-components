@@ -21,8 +21,8 @@ struct WidgetLayerAccentColorView: View {
         case .dark:
             WidgetLayerColorView(
                 backgroundColor: .black,
-                secondaryColor: accentColor.opacity(0.1),
-                primaryColor: accentColor.opacity(0.2),
+                secondaryColor: accentColor.opacity(0.2),
+                primaryColor: accentColor.opacity(0.3),
                 appearance: appearance)
         }
     }
