@@ -8,8 +8,8 @@ import SwiftUI
 // MARK: -
 struct WidgetLayerColorView: View {
     let backgroundColor: Color
-    let widgetColor: Color
-    let widgetOnWidgetColor: Color
+    let secondaryColor: Color
+    let primaryColor: Color
     let appearance: Appearance
     
     var body: some View {
@@ -27,9 +27,9 @@ struct WidgetLayerColorView: View {
             ZStack(alignment: .topLeading) {
                 RoundedRectangle(cornerRadius: 5)
                     .frame(width: 220, height: 160)
-                    .foregroundColor(widgetColor)
+                    .foregroundColor(secondaryColor)
                 
-                Text("Widget")
+                Text("Secondary")
                     .font(.caption)
                     .foregroundColor(appearance.foregroundColor)
                     .padding(8)
@@ -38,9 +38,9 @@ struct WidgetLayerColorView: View {
             ZStack(alignment: .topLeading) {
                 RoundedRectangle(cornerRadius: 5)
                     .frame(width: 170, height: 105)
-                    .foregroundColor(widgetOnWidgetColor)
+                    .foregroundColor(primaryColor)
                 
-                Text("Widget on Widget")
+                Text("Primary")
                     .font(.caption)
                     .foregroundColor(appearance.foregroundColor)
                     .padding(8)
@@ -61,8 +61,8 @@ struct WidgetLayerColorExampleView: View {
                     .padding()
                 WidgetLayerColorView(
                     backgroundColor: Color(0xf2f2f7),
-                    widgetColor: Color(0xffffff),
-                    widgetOnWidgetColor: Color(0xdfdfe4),
+                    secondaryColor: Color(0xdfdfe4),
+                    primaryColor: Color(0xffffff),
                     appearance: .light)
             }
             .padding(.horizontal, 30)
@@ -75,9 +75,10 @@ struct WidgetLayerColorExampleView: View {
                 
                 WidgetLayerColorView(
                     backgroundColor: Color(0x000000),
-                    widgetColor: Color(0x1c1c1e),
-                    widgetOnWidgetColor: Color(0x39393d),
+                    secondaryColor: Color(0x1c1c1e),
+                    primaryColor: Color(0x39393d),
                     appearance: .dark)
+
             }
             .padding(.horizontal, 30)
         }
