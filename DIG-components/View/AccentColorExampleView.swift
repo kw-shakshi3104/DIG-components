@@ -66,7 +66,7 @@ struct AccentColorExampleView: View {
         ZStack(alignment: .topTrailing) {
             HStack {
                 ZStack {
-                    RoundedRectangle(cornerRadius: 20)
+                    RoundedRectangle(cornerRadius: 10)
                         .frame(width: 270, height: 220)
                         .foregroundColor(accentColorSelection.opacity(0.1))
                     
@@ -109,7 +109,7 @@ struct AccentColorExampleView: View {
                 .padding(.horizontal, 30)
                 
                 ZStack {
-                    RoundedRectangle(cornerRadius: 20)
+                    RoundedRectangle(cornerRadius: 10)
                         .frame(width: 270, height: 220)
                         .foregroundColor(accentColorSelection.opacity(0.1))
                     
