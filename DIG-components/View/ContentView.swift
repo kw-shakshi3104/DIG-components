@@ -8,25 +8,27 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            NonPerceptibleColorExmapleView()
+                NonPerceptibleColorExmapleView()
                 
-            ConsistencyIconExampleView()
-            
-            OpticalCenteringExampleView()
-            
-            HeteropticsExampleView()
-            
-            PositiveNagativeSymbolExampleView()
-            
-            WidgetLayerColorExampleView()
-            
-            WidgetLabelColorExampleView()
-            
-            WidgetLayerAccentColorExample()
-            
-            AccentColorExampleView()
-            
-            InfoBlockExampleView()
+//                ConsistencyIconExampleView()
+//                
+//                OpticalCenteringExampleView()
+//                
+//                HeteropticsExampleView()
+//                
+//                PositiveNagativeSymbolExampleView()
+                
+                WidgetLayerColorExampleView()
+                
+//                WidgetLabelColorExampleView()
+                
+                WidgetLayerAccentColorExample()
+                
+                AccentColorExampleView()
+                
+                InfoBlockExampleView()
+                
+                SectionBlockExampleView()
         }
         .tabViewStyle(.page(indexDisplayMode: .always))
     }
