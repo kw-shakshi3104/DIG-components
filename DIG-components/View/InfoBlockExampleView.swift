@@ -88,7 +88,7 @@ struct MilleView: View {
                             .padding(.horizontal, 4)
                             
                             BarChart(data: data,
-                                         foregroundColor: accentColorSelection)
+                                     foregroundColor: .gray)
                                 .frame(width: 110)
                         }
                         .frame(width: 140, height: 90)
