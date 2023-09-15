@@ -14,6 +14,7 @@
 		743EC9EC297E9D39008F95CC /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743EC9EB297E9D39008F95CC /* Appearance.swift */; };
 		743EC9EE297E9EF9008F95CC /* WidgetLayerAccentColorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743EC9ED297E9EF9008F95CC /* WidgetLayerAccentColorExample.swift */; };
 		74568E512AB30293002B260B /* AccentColorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74568E502AB30293002B260B /* AccentColorExampleView.swift */; };
+		74568E532AB3105B002B260B /* InfoBlockExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74568E522AB3105B002B260B /* InfoBlockExampleView.swift */; };
 		74AA6C7C28EDA96B009BADF9 /* DIG_componentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA6C7B28EDA96B009BADF9 /* DIG_componentsApp.swift */; };
 		74AA6C7E28EDA96B009BADF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA6C7D28EDA96B009BADF9 /* ContentView.swift */; };
 		74AA6C8028EDA96C009BADF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AA6C7F28EDA96C009BADF9 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		743EC9EB297E9D39008F95CC /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		743EC9ED297E9EF9008F95CC /* WidgetLayerAccentColorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetLayerAccentColorExample.swift; sourceTree = "<group>"; };
 		74568E502AB30293002B260B /* AccentColorExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColorExampleView.swift; sourceTree = "<group>"; };
+		74568E522AB3105B002B260B /* InfoBlockExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBlockExampleView.swift; sourceTree = "<group>"; };
 		74AA6C7828EDA96B009BADF9 /* DIG-components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DIG-components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AA6C7B28EDA96B009BADF9 /* DIG_componentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIG_componentsApp.swift; sourceTree = "<group>"; };
 		74AA6C7D28EDA96B009BADF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				74D1AB4828F7EE0A0022E2CF /* PositiveNagativeSymbolExampleView.swift */,
 				743EC9EA297E9D13008F95CC /* Widget+Color */,
 				74568E502AB30293002B260B /* AccentColorExampleView.swift */,
+				74568E522AB3105B002B260B /* InfoBlockExampleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				74B95AAA2970034D00230FEC /* WidgetLayerColorExampleView.swift in Sources */,
 				74AA6C7C28EDA96B009BADF9 /* DIG_componentsApp.swift in Sources */,
 				7423165328EEF08F00E1B5C4 /* ConsistencyIconExampleView.swift in Sources */,
+				74568E532AB3105B002B260B /* InfoBlockExampleView.swift in Sources */,
 				74D1AB4928F7EE0A0022E2CF /* PositiveNagativeSymbolExampleView.swift in Sources */,
 				7423165528EEF51D00E1B5C4 /* OpticalCenteringExampleView.swift in Sources */,
 				743EC9EC297E9D39008F95CC /* Appearance.swift in Sources */,
