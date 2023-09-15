@@ -130,6 +130,7 @@ struct AccentColorExampleView: View {
                                         .fontWeight(.medium)
                                         .foregroundColor(accentColorSelection)
                                 }
+                                
                                 Text("Number")
                                     .font(.title)
                                     .fontWeight(.semibold)
@@ -154,7 +155,7 @@ struct AccentColorExampleView: View {
                                     .frame(width: 150, height: 40)
                                     .padding(.horizontal, 10)
                             }
-                            .padding(.horizontal, 20)
+                            .offset(x: 16)
                         }
                     }
                 }
