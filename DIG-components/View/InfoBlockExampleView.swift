@@ -29,7 +29,7 @@ struct MilleView: View {
     var body: some View {
         ZStack {
             // Background
-            Rectangle()
+            RoundedRectangle(cornerRadius: 10)
                 .frame(width: 270, height: 220)
                 .foregroundColor(accentColorSelection.opacity(0.1))
             
