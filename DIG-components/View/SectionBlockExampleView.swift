@@ -43,6 +43,7 @@ struct RingView: View {
 struct SectionBlockView: View {
     let sectionTitle: String
     let sectionColor: Color
+    let value: Float
     
     var body: some View {
         ZStack {
@@ -58,7 +59,7 @@ struct SectionBlockView: View {
                 ZStack {
                     Spacer().frame(width: 80, height: 90)
                     
-                    RingView(foregroundColor: sectionColor, value: 0.8)
+                    RingView(foregroundColor: sectionColor, value: value)
                 }
             }
         }
@@ -81,11 +82,11 @@ struct SectionBlockExampleView: View {
                     .fontWeight(.semibold)
                 
                 HStack(spacing: 16) {
-                    SectionBlockView(sectionTitle: "Topic", sectionColor: .blue)
+                    SectionBlockView(sectionTitle: "Topic", sectionColor: .blue, value: 0.6)
                     
-                    SectionBlockView(sectionTitle: "Topic", sectionColor: .green)
+                    SectionBlockView(sectionTitle: "Topic", sectionColor: .green, value: 0.8)
                     
-                    SectionBlockView(sectionTitle: "Topic", sectionColor: .purple)
+                    SectionBlockView(sectionTitle: "Topic", sectionColor: .purple, value: 0.4)
                 }
             }
         }
