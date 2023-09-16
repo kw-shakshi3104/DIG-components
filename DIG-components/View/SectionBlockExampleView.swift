@@ -21,7 +21,7 @@ struct RingView: View {
             Circle()
                 .stroke(lineWidth: lineWidth)
                 .opacity(0.3)
-                .foregroundColor(.gray)
+                .foregroundColor(foregroundColor)
             
             // ring
             Circle()
@@ -56,11 +56,7 @@ struct SectionBlockView: View {
                     .fontWeight(.medium)
                 
                 ZStack {
-                    RoundedRectangle(cornerRadius: 8)
-                        .frame(width: 80, height: 90)
-                        .foregroundColor(.white)
-//                    Spacer().frame(width: 80, height: 90)
-                    
+                    Spacer().frame(width: 80, height: 90)
                     
                     RingView(foregroundColor: sectionColor, value: 0.8)
                 }
